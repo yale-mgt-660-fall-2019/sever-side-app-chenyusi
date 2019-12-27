@@ -33,7 +33,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 func nicknameHandler(w http.ResponseWriter, r *http.Request) {
 	// Write this clever message to w, which implements
 	// the Writer interface https://golang.org/pkg/io/#Writer
-	fmt.Fprintf(w, "wild-opposum")
+	fmt.Fprintf(w, "wild-opossum")
 }
 
 func main() {
